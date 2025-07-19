@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <header class="text-center py-16 bg-blue-500 text-white">
+        <h1 class="text-4xl">Dashboard</h1>
+    </header>
+    <main class="px-4 py-8">
+        <section class="mb-8">
+            <h2 class="text-2xl text-blue-500">Manage Projects</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li><a href="add-project.html">Add Project</a></li>
+                <li><a href="edit-project.html">Edit Project</a></li>
+                <li><a href="delete-project.html">Delete Project</a></li>
+            </ul>
+        </section>
+        <section>
+           <h2 class="text-2xl text-blue-500">Contact Requests</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li><a href="view-requests.html">View Requests</a></li>
+                <li><a href="delete-request.html">Delete Request</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="dashboard-scripts.js"></script>
+</body>
+</html>
